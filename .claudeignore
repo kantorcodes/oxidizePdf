@@ -1,5 +1,10 @@
-# .claudeignore - Optimized for oxidize-pdf project
-# This file reduces Claude's context by ~70% by excluding non-essential files
+# .claudeignore - reference-only exclusion list for oxidize-pdf
+# IMPORTANT: Claude Code does not support .claudeignore. The patterns below
+# do not reduce context use, block file reads, or protect sensitive files.
+# For enforced Claude Code read restrictions, configure Read deny rules under
+# permissions.deny in .claude/settings.json (or managed settings) instead.
+# See https://code.claude.com/docs/en/permissions#read-and-edit
+# These patterns are retained only as a reference for a future migration.
 
 # ====================
 # Build & Dependencies
